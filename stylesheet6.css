@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+header{
+    height: 100px;
+}
+.header-block{
+    float: left;
+}
+.header-logo i{
+    margin: 0;
+    float: left;
+    font-size: 50px;
+}
+.header-block li{
+    float:left;
+    margin:0 20px;
+}
+.header-block a{
+    color: white;
+    background-color:#FF6633 ;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.header-iphone{
+    display: none;
+    float:right;
+}
+.slideshow{
+    overflow: hidden;
+    position: relative;
+    height:465px;
+
+}
+.slideshow img{
+    display: none;
+    width:100%;
+    margin:0;
+}
+.top-section{
+    height:300px;
+}
+.top-section i{
+    padding-top:100px;
+    display: block;
+    font-size: 24px;
+}
+.about-top{
+    background-color: #FFDAB9;
+    border: none;
+    border-radius: 20px;
+    margin: 50px;
+    display: block;
+}
+.good-point{
+    padding:30px 0;
+    display: block;
+    background-color: #FFDAB9;
+    border: none;
+    border-radius: 20px;
+    margin:10px;
+
+}
+.good-point h1{
+    font-size: 30px;
+}
+.top-section{
+    height:1000px;
+}
+.middle-top-section{
+    height:1200px;
+}
+.middle-top-section i{
+    font-size: 24px;
+    margin: 20px;
+}
+.middle-top-section img{
+    height:200px;
+    width:200px;
+}
+.course-menu{
+    padding: 30px 0;
+    display: block;
+}
+.middle-bottom-section{
+    background-color: #e6ecf0;
+    text-align: center;
+    padding-bottom: 80px;
+    color: #5f5d60;
+    height: 400px;
+    margin:10px;
+    border-radius: 20px;
+}
+.middle-bottom-section h5{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.faq-list{
+    width:500px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.faq-list-item{
+    margin: 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.faq-list-item span{
+    position: absolute;
+    top: 0;
+    right:5px;
+    color: #ccc;
+    font-size: 13px;
+}
+.answer{
+    font-size: 12px;
+    display: none;
+    padding: 5px 0px;
+    margin-bottom: 15px;
+}
+.bottom-section{
+    height:400px;
+}
+.bottom-section p{
+    padding-top: 50px;
+}
+input,textarea{
+    width:80%;
+    margin: 5px;
+}
+input{
+    height:50px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    padding:10px 20px;
+    background-color: #FF6633;
+    color:white;
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    background-image: url(https://pakutaso.cdn.rabify.me/shared/img/thumb/fruit1753.jpg?d=500);
+    background-size: cover;
+}
+footer a{
+    color: black;
+}
+@media screen and (max-width: 670px){
+    header{
+        position: absolute;
+        top:0;
+    }
+    .header-iphone{
+        display: block;
+    }
+    .menu-list{
+        display: none;
+    }
+    .header-block{
+        display: none;
+    }
+}
+
+
+
