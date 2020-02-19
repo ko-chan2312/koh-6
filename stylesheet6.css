@@ -40,6 +40,12 @@ header{
 .menu-list a{
     color: black;
 }
+.menu-list li{
+    color:black;
+}
+.menu-list{
+    display: none;
+}
 .slideshow{
     overflow: hidden;
     position: relative;
@@ -186,8 +192,11 @@ footer a{
     .header-block{
         display: none;
     }
-    .middle-bottom-section{
-        width: 90%;
+    .top-section i{
+        padding-top: 10px;
+    }
+    .faq-list-item{
+        width:100%;
     }
     button{
         width: 100%;
