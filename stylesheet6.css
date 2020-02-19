@@ -37,6 +37,9 @@ header{
     display: none;
     float:right;
 }
+.menu-list a{
+    color: black;
+}
 .slideshow{
     overflow: hidden;
     position: relative;
@@ -164,10 +167,15 @@ footer a{
 }
 @media screen and (max-width: 670px){
     header{
-        position: absolute;
+        position: fixed;
         top:0;
-        background-color:white;
-        z-index:10;
+        background-color:#FF6633;
+        width:100%;
+        z-index: 10;
+        height: 50px;
+    }
+    .header-logo i{
+        color: white;
     }
     .header-iphone{
         display: block;
@@ -178,6 +186,13 @@ footer a{
     .header-block{
         display: none;
     }
+    .middle-bottom-section{
+        width: 90%;
+    }
+    button{
+        width: 100%;
+    }
+
 }
 
 
