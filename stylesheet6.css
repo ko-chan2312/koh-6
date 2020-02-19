@@ -194,10 +194,11 @@ footer a{
     }
     .top-section i{
         padding-top: 10px;
+        height: 10px;
     }
     .faq-list-item{
         width:100%;
-        text-align:center;
+        text-align: center;
     }
     button{
         width: 100%;
